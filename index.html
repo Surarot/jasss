@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Abhisit Profile Site</title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <!--line 7,18: Exeternal Resource Link  
+        font-family Ref:https://www.w3schools.com/whatis/tryit.asp?font=Aclonica -->
+    <script>
+        function onChangeBg() {
+            let color = "#000";
+            // Code here
+            if (document.body.style.backgroundColor == "blue")
+            {document.body.style.backgroundColor = "white";}
+                 else
+            {
+                document.body.style.backgroundColor = "blue";
+
+            }  
+       }
+    </script>
+</head>
+
+<body>
+    <hr>
+    <!-- Menu -->
+    <table style="width:100%; text-align: center">
+        <tr>
+            <td>
+                <h3><a href="index.html">Profile</a></h3>
+            </td>
+            <td>
+                <h3><a href="about.html">About</a></h3>
+            </td>
+            <td>
+                <h3><a href="projects.html">Projects</a></h3>
+            </td>
+            <td>
+                <h3><a href="contact.html">Contact</a></h3>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th style="width: 50%; text-align: left;">
+                <h2 class="Name">Hi, I am Abhisit Ukham </h2>
+                <p style="font-weight:normal; text-align: justify;">&nbsp;&nbsp;&nbsp;
+                    More 5 Years of Experienced Developer with Front-end and Back-end .NET programming in the
+                    information technology and service industry. Skilled in HTML, CSS, Javascript, Angular, React, MVC,
+                    C# and ORACLE, SQL database tools. A strong engineering professional with a Bachelor of Engineering
+                    (BE) focused on Computer Engineering from Bangkok University.
+                </p>
+                <p><a href="javascript:void(0)" onclick="onChangeBg()">เปลี่ยนสีพื้นหลัง</a></p>
+            </th>
+        </tr>
+    </table>
+    <hr>
+    <p style="text-align: center;">© 2022 Abhisit Ukham</p>
+</body>
+
+</html>
